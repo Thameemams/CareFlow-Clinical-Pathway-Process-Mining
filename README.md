@@ -6,3 +6,4 @@ Hospital administrators often struggle with high Emergency Room (ER) wait times 
 **CareFlow** solves this by treating healthcare operations as an **event-log architecture**. By ingesting raw chronological event data from Electronic Health Record (EHR) systems and processing them via **PM4Py** and **Google BigQuery**, CareFlow exposes hidden organizational friction.
 
 # PHASE I
+# Aim of the Project
