@@ -15,4 +15,7 @@ Identify Hidden Operational Bottlenecks: Pinpoint specific root causes of delay 
 
 Measure Transition & Wait Times: Calculate precise, step-by-step transition times between individual clinical nodes (e.g., duration from Triage to Doctor Consultation).
 
+# About the dataset
+* Domain: Healthcare Operations & Process Analytics 
+
 
