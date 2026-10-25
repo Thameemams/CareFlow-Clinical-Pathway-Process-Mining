@@ -23,6 +23,8 @@ The **CareFlow** project leverages process mining techniques to bridge the gap b
 Healthcare organizations lack visibility into real-world patient workflows because traditional Business Intelligence metrics rely on aggregate averages that obscure operational delays. Standard reporting tools fail to track complex, non-linear patient paths, leaving systemic friction—such as redundant departmental loops and prolonged transition wait times—unidentified, unaddressed, and unmanaged by hospital administrators.
 
 ## About the dataset
-* Domain: Healthcare Operations & Process Analytics 
+* Domain: Healthcare Operations & Process Analytics
+* Dataset Source Code: df = pd.read_csv("careflow_synthetic_ehr_logs.csv")
+* Data Type: Comma Separated Values 
 
 
