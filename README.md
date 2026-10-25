@@ -6,14 +6,17 @@ Hospital administrators often struggle with high Emergency Room (ER) wait times 
 **CareFlow** solves this by treating healthcare operations as an **event-log architecture**. By ingesting raw chronological event data from Electronic Health Record (EHR) systems and processing them via **PM4Py** and **Google BigQuery**, CareFlow exposes hidden organizational friction.
 
 # PHASE I
-# Aim of the Project
-Eliminate Operational Blind Spots: Move beyond standard static Business Intelligence (BI) dashboards that only display overall "average wait times" to uncover the real-world, chaotic paths patient journeys actually follow.
+## 🎯 Aim of the Project
 
-Reconstruct Actual Patient Pathways: Ingest raw, timestamped event logs from Electronic Health Record (EHR) systems to automatically map out patient flows using Process Mining algorithms (PM4Py).
+The **CareFlow** project leverages process mining techniques to bridge the gap between raw Electronic Health Record (EHR) data and operational healthcare decision-making.
 
-Identify Hidden Operational Bottlenecks: Pinpoint specific root causes of delay and loop-backs—such as patients repeatedly sent back to Triage after X-Rays due to missing paperwork.
-
-Measure Transition & Wait Times: Calculate precise, step-by-step transition times between individual clinical nodes (e.g., duration from Triage to Doctor Consultation).
+- **Eliminate Operational Blind Spots:** Go beyond standard static Business Intelligence (BI) dashboards that only display high-level averages (e.g., overall wait times) to uncover the real-world, highly variable paths patient journeys actually follow.
+  
+- **Reconstruct Actual Patient Pathways:** Ingest raw, timestamped event logs from EHR systems to automatically reconstruct and visualize end-to-end patient flows using Python's `pm4py` library.
+  
+- **Identify Hidden Operational Bottlenecks:** Pinpoint specific root causes of delay and process loops (such as patients being re-routed to Triage after X-Ray due to incomplete paperwork).
+  
+- **Measure Step-by-Step Transition & Wait Times:** Calculate precise, node-to-node duration metrics between specific clinical stages (e.g., exact time elapsed from *Triage* to *Doctor Consultation*).
 
 # About the dataset
 * Domain: Healthcare Operations & Process Analytics 
