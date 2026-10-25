@@ -18,7 +18,11 @@ The **CareFlow** project leverages process mining techniques to bridge the gap b
   
 - **Measure Step-by-Step Transition & Wait Times:** Calculate precise, node-to-node duration metrics between specific clinical stages (e.g., exact time elapsed from *Triage* to *Doctor Consultation*).
 
-# About the dataset
+## 📌 Problem Definition
+
+Healthcare organizations lack visibility into real-world patient workflows because traditional Business Intelligence metrics rely on aggregate averages that obscure operational delays. Standard reporting tools fail to track complex, non-linear patient paths, leaving systemic friction—such as redundant departmental loops and prolonged transition wait times—unidentified, unaddressed, and unmanaged by hospital administrators.
+
+## About the dataset
 * Domain: Healthcare Operations & Process Analytics 
 
 
