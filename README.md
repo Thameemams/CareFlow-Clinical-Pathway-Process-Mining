@@ -29,7 +29,7 @@ Healthcare organizations lack visibility into real-world patient workflows becau
 * Rows:1142
 * Columns:10 
   
-##Key features evaluated include:
+## Key features evaluated include:
 * Temporal & Spatial Data: timestamp, location, resource
 * Patient Demographics: patient_age, patient_gender, acuity_level
 * Clinical Operations: attending_doctor, paperwork_missing_flag, activity
