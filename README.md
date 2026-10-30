@@ -26,5 +26,10 @@ Healthcare organizations lack visibility into real-world patient workflows becau
 * Domain: Healthcare Operations & Process Analytics
 * Dataset Source Code: df = pd.read_csv("careflow_synthetic_ehr_logs.csv")
 * Data Type: Comma Separated Values 
-
-
+* Rows:1142
+* Columns:10 
+  
+##Key features evaluated include:
+* Temporal & Spatial Data: timestamp, location, resource
+* Patient Demographics: patient_age, patient_gender, acuity_level
+* Clinical Operations: attending_doctor, paperwork_missing_flag, activity
