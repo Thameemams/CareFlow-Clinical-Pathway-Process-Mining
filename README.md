@@ -33,3 +33,15 @@ Healthcare organizations lack visibility into real-world patient workflows becau
 * Temporal & Spatial Data: timestamp, location, resource
 * Patient Demographics: patient_age, patient_gender, acuity_level
 * Clinical Operations: attending_doctor, paperwork_missing_flag, activity
+
+## Steps Required:
+1.Data Loading and Initial Overview
+
+2.Data Pre-processing
+
+3.Exploratory Data Analysis (EDA)
+
+4.Visualizations
+
+5.Insight Generation and Report
+
