@@ -45,3 +45,8 @@ Healthcare organizations lack visibility into real-world patient workflows becau
 
 5.Insight Generation and Report
 
+# PHASE II
+# Dataset Loading and  Overview:
+* Total no. of rows:1142
+* Total no. of columns:10 columns
+
