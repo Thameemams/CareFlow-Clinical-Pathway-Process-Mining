@@ -59,10 +59,10 @@ Healthcare organizations lack visibility into real-world patient workflows becau
 * Memory usage: 81.5+ KB
 
 ## Patient Age Summary Statistics:
-* Average of patient age: 54.05
-* Median value: 56.00
-* Standard deviation: 19.22
-* Minimum value of pollution data: 18.00
-* Maximum value of pollution data: 85.00
+* Average of patient age: 54.05 years
+* Median value: 56.00 years
+* Standard deviation: 19.22 years
+* Minimum value of patient age: 18.00 years
+* Maximum value of patient age: 85.00 years
 
 
