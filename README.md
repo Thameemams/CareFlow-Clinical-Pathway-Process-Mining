@@ -58,7 +58,7 @@ Healthcare organizations lack visibility into real-world patient workflows becau
 * Datatype issues are found: The datatype of timestamp is wrongly given as 'object' instead of 'datetime'.
 * Memory usage: 81.5+ KB
 
-# Patient Age Summary Statistics:
+## Patient Age Summary Statistics:
 * Average of patient age: 54.05
 * Median value: 56.00
 * Standard deviation: 19.22
