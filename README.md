@@ -73,8 +73,11 @@ Healthcare organizations lack visibility into real-world patient workflows becau
 * Filtered out a summary table, missing significant paperwork, to ensure data integrity..
 * Data values are aggregated based on:
     1.Patient Case-Level Summary (Duration & Activity Count).
+  
     2.Resource & Staff Workload.
+  
     3.Acuity Level & Demographics Breakdown.
+  
     4.Activity & Location Bottleneck.
  
 
