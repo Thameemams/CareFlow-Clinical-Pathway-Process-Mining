@@ -16,7 +16,7 @@ The **CareFlow** project leverages process mining techniques to bridge the gap b
   
 - **Identify Hidden Operational Bottlenecks:** Pinpoint specific root causes of delay and process loops (such as patients being re-routed to Triage after X-Ray due to incomplete paperwork).
   
-- **Measure Step-by-Step Transition & Wait Times:** Calculate precise, node-to-node duration metrics between specific clinical stages (e.g., exact time elapsed from *Triage* to *Doctor Consultation*).
+- **Measure Step-by-Step Transition & Wait Times:** Calculate precise, node-to-node duration metrics between specific clinical stages (e.g., exact time elapsed from Triage to Doctor Consultation).
 
 ## 📌 Problem Definition
 
