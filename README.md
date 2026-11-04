@@ -67,11 +67,15 @@ Healthcare organizations lack visibility into real-world patient workflows becau
 
 ## Data Pre-processing part Overview:
 * The dataset is devoid of missing values.
-* No duplicate rows are also not detected.
-* Data type of Start_Date and Data Value are changed to datatime and int respectively.
-* Also the the Pollution Data Values are rounded to the nearby integers.
-* Pollution data values of Nitrogen Dioxide(NO2) and Ozone(O3) are filtered out.
-* Data values are aggregated based on the name of pollutants, place names, geographic areas and time period.
+* No duplicate rows are detected.
+* Converted the timestamp column from an object format to a proper datetime datatype.
+* Extracted date and time values into separate attributes from the main timestamp.
+* Filtered out a summary table, missing significant paperwork, to ensure data integrity..
+* Data values are aggregated based on:
+    1.Patient Case-Level Summary (Duration & Activity Count).
+    2.Resource & Staff Workload.
+    3.Acuity Level & Demographics Breakdown.
+    4.Activity & Location Bottleneck.
  
 
 
