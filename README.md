@@ -72,6 +72,7 @@ Healthcare organizations lack visibility into real-world patient workflows becau
 * Extracted date and time values into separate attributes from the main timestamp.
 * Filtered out a summary table, missing significant paperwork, to ensure data integrity..
 * Data values are aggregated based on:
+  
     1.Patient Case-Level Summary (Duration & Activity Count).
   
     2.Resource & Staff Workload.
