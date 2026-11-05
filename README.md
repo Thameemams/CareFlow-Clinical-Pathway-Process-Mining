@@ -81,7 +81,7 @@ Healthcare organizations lack visibility into real-world patient workflows becau
   
     4.Activity & Location Bottleneck.
 
-## 📊 Task 3: Bottleneck & Transition Time Analytics
+## Bottleneck & Transition Time Analytics
 
 By moving beyond standard BI averages and analyzing the exact chronological sequences in our event logs, **CareFlow** successfully exposed the hidden operational friction plaguing the Emergency Room. 
 
