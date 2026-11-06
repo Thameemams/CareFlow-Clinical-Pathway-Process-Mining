@@ -82,7 +82,7 @@ Healthcare organizations lack visibility into real-world patient workflows becau
     4.Activity & Location Bottleneck.
   
 # PHASE III
-## 🗺️ Task 2: Event Normalization & Process Discovery
+## 🗺️ Event Normalization & Process Discovery
 
 To transition from flat tabular logs to a true process-mining architecture, the normalized dataset was ingested into **PM4Py** (the industry-standard process mining library in Python). 
 
@@ -91,38 +91,10 @@ To transition from flat tabular logs to a true process-mining architecture, the 
 2. **Process Discovery:** Applied the **Directly-Follows Graph (DFG)** discovery algorithm to map out the actual chronological movement of patients through the emergency room.
 3. **Artifact Generation:** Successfully compiled and rendered the "As-Is" Spaghetti Diagram output as `careflow_as_is_process_map.png`.
 
----
+## 🔍 Architectural Insight
+By transforming static EHR event rows into a Directed Graph, the pipeline bypasses traditional BI limitations. Instead of viewing isolated timestamps, the resulting visualization exposes the true, non-linear routing of emergency room patients—providing the foundational architecture needed to spot structural loops and workflow friction in subsequent tasks.
 
-### 💻 Execution Script
-
-```python
-import pandas as pd
-import pm4py
-
-# 1. Load the cleaned dataset
-df = pd.read_csv("careflow_cleaned_ehr_logs.csv")
-df["timestamp"] = pd.to_datetime(df["timestamp"])
-
-# 2. Format the DataFrame for PM4Py standards
-log = pm4py.format_dataframe(
-    df,
-    case_id="case_id",
-    activity_key="activity",
-    timestamp_key="timestamp",
-)
-
-# 3. Discover the Directly-Follows Graph (Spaghetti Diagram)
-dfg, start_activities, end_activities = pm4py.discover_dfg(log)
-
-# 4. Save the process map visualization
-output_filename = "careflow_as_is_process_map.png"
-pm4py.save_vis_dfg(
-    dfg, start_activities, end_activities, file_path=output_filename
-)
-print(f"Process map saved as '{output_filename}'.")
-
-
-## Bottleneck & Transition Time Analytics
+## 📊 Bottleneck & Transition Time Analytics
 
 By analyzing the chronological event sequences in our simulated EHR dataset, **CareFlow** successfully unmasked the hidden operational friction inside the Emergency Room. Instead of relying on misleading aggregate averages, our transition-time matrix exposes exactly where patient flow breaks down.
 
