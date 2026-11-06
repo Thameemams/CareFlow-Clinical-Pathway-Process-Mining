@@ -80,7 +80,8 @@ Healthcare organizations lack visibility into real-world patient workflows becau
     3.Acuity Level & Demographics Breakdown.
   
     4.Activity & Location Bottleneck.
-
+  
+# PHASE III
 ## Bottleneck & Transition Time Analytics
 
 By analyzing the chronological event sequences in our simulated EHR dataset, **CareFlow** successfully unmasked the hidden operational friction inside the Emergency Room. Instead of relying on misleading aggregate averages, our transition-time matrix exposes exactly where patient flow breaks down.
