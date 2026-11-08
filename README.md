@@ -130,6 +130,33 @@ Standard BI dashboards typically display an unhelpful blended average for the en
 
 # TASK V
 ### 📈 Power BI Executive Dashboard Integration
+
+To bridge the gap between back-end data pipelines and executive decision-making, the normalized EHR event logs and transition metrics were integrated directly into **Power BI**, establishing a dynamic, executive-ready operational command center for hospital leadership.
+
+### 🏛️ Dashboard Architecture & Design
+
+The Power BI workspace is structured around key operational dimensions, utilizing the cleaned dataset (`careflow_cleaned_ehr_logs.xlsx`) to answer critical administrative questions regarding throughput, wait times, and bottleneck locations:
+
+1. **Top-Level KPI Cards (Operational Pulse):**
+   * **Total Patient Volume:** Tracks overall throughput across active cases (**200 unique patient cases**).
+   * **Average Length of Stay (LOS):** Monitors the complete patient journey from initial check-in to final discharge.
+   * **Rework / Paperwork Error Rate:** Quantifies administrative friction (**37.3%** of events flagged with missing documentation).
+   * **Critical Loop-Back Count:** Highlights structural workflow failures (specifically tracking the **71 instances** of the `X-Ray` $\rightarrow$ `Triage` loop).
+
+2. **Core Visual Components:**
+   * **Process Pathway Funnel / Flow:** Traces patient volume step-by-step from `Check-in` $\rightarrow$ `Triage` $\rightarrow$ `Doctor Consultation` $\rightarrow$ `X-Ray` $\rightarrow$ `Discharge`.
+   * **Transition Bottleneck Matrix:** Combines `activity` and `next_activity` with average transition wait times, using conditional formatting to flag severe delays (such as the **33.47-minute** wait between `Triage` and `Doctor Consultation`).
+   * **Patient Acuity Distribution (ESI Tiers 2–5):** Evaluates incoming patient severity evenly spread across acuity levels to monitor resource strain.
+
+---
+
+### 📐 DAX Core Measures Implemented
+
+To power dynamic filtering, cross-highlighting, and KPI evaluations within the model, custom DAX measures were established:
+
+```dax
+// 1. Total Patient Volume Measure
+Total_Patients = DISTINCTCOUNT(careflow_cleaned_ehr_logs[case_id])
  
 
 
