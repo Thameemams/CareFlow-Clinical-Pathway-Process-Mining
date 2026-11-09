@@ -148,15 +148,10 @@ The Power BI workspace is structured around key operational dimensions, utilizin
    * **Transition Bottleneck Matrix:** Combines `activity` and `next_activity` with average transition wait times, using conditional formatting to flag severe delays (such as the **33.47-minute** wait between `Triage` and `Doctor Consultation`).
    * **Patient Acuity Distribution (ESI Tiers 2–5):** Evaluates incoming patient severity evenly spread across acuity levels to monitor resource strain.
 
----
+TASK VI
+# Summary and Recommendations: 
+# Project Summary:
 
-### 📐 DAX Core Measures Implemented
-
-To power dynamic filtering, cross-highlighting, and KPI evaluations within the model, custom DAX measures were established:
-
-```dax
-// 1. Total Patient Volume Measure
-Total_Patients = DISTINCTCOUNT(careflow_cleaned_ehr_logs[case_id])
- 
+# Recommendations: 
 
 
