@@ -174,7 +174,7 @@ The **CareFlow Clinical Pathway Process Mining** project successfully bridged th
 * **Primary Resource Bottleneck:** Quantified the longest primary queueing delay occurring between `Triage` and `Doctor Consultation`, averaging **33.47 minutes** across 271 occurrences, pointing directly to consultation-bay and physician availability constraints.
 * **Executive Command Center:** Deployed a multi-page Power BI dashboard equipped with dynamic ESI acuity slicers, doctor performance matrices, and paperwork impact filters to provide clinical leadership with real-time operational visibility.
   
-### 💡 Strategic Recommendations for Hospital Administrators
+## 💡 Strategic Recommendations for Hospital Administrators
 
 To eliminate administrative friction, reclaim operational capacity, and reduce overall patient Length of Stay (LOS), hospital management should implement the following data-driven interventions:
 
