@@ -137,7 +137,7 @@ To operationalize the process mining insights, an interactive, multi-page **Powe
 
 The dashboard is structured into dedicated analytical views to evaluate emergency room throughput, resource bottlenecks, and administrative friction points at a glance.
 
-#### Operational Pulse & Bottleneck Command Center
+## Operational Pulse & Bottleneck Command Center
 * **Top-Level KPI Cards:**
   * **Total Patient Volume:** Tracks active throughput (**200 total cases**).
   * **Average Length of Stay (LOS):** Monitors overall visit duration (**20.03 minutes** baseline transition average).
@@ -147,10 +147,10 @@ The dashboard is structured into dedicated analytical views to evaluate emergenc
 * **Core Visuals:**
   * **The Key Bottleneck Visual:** A transition wait-time bar chart highlighting primary choke points—specifically isolating the heavy queueing delay between `Triage` and `Doctor Consultation` and retrograde movements.
   * **Location & Acuity Distribution:** Slices patient volume across emergency room locations (`Consultation Bay B`, `Triage Room 1`, `Radiology Lab 2`) and ESI Acuity Levels (Levels 2 through 5).
-* **Process Pathway Funnel Chart:** Maps patient progression across milestones (`Check-in` $\rightarrow$ `Triage` $\rightarrow$ `Doctor Consultation` $\rightarrow$ `X-Ray` $\rightarrow$ `Discharge`), clearly visualizing volume counts and stage drop-offs.
-* **Paperwork Impact Analysis:** Directly contrasts complete vs. missing paperwork scenarios to prove how missing documentation inflates wait times.
-* **Doctor Performance Matrix:** Evaluates individual physician workloads (`Dr. Adams`, `Dr. Chen`, `Dr. House`, `Dr. Robert`, `Dr. Smith`), tracking patient case counts and average wait durations per attending doctor.
-* **Demographic & Acuity Breakdown:** Visualizes patient age distribution segmented by gender and acuity.
+  * **Process Pathway Funnel Chart:** Maps patient progression across milestones (`Check-in` $\rightarrow$ `Triage` $\rightarrow$ `Doctor Consultation` $\rightarrow$ `X-Ray` $\rightarrow$ `Discharge`), clearly visualizing volume counts and stage drop-offs.
+  * **Paperwork Impact Analysis:** Directly contrasts complete vs. missing paperwork scenarios to prove how missing documentation inflates wait times.
+  * **Doctor Performance Matrix:** Evaluates individual physician workloads (`Dr. Adams`, `Dr. Chen`, `Dr. House`, `Dr. Robert`, `Dr. Smith`), tracking patient case counts and average wait durations per attending doctor.
+  * **Demographic & Acuity Breakdown:** Visualizes patient age distribution segmented by gender and acuity.
 
 ### 🎛️ Interactive Filtering & Slicing Capabilities
 The dashboard incorporates dynamic global filters enabling hospital managers to drill down into specific operational subsets instantly:
