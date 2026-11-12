@@ -137,7 +137,7 @@ To operationalize the process mining insights, an interactive, multi-page **Powe
 
 The dashboard is structured into dedicated analytical views to evaluate emergency room throughput, resource bottlenecks, and administrative friction points at a glance.
 
-## Operational Pulse & Bottleneck Command Center
+### Operational Pulse & Bottleneck Command Center
 * **Top-Level KPI Cards:**
   * **Total Patient Volume:** Tracks active throughput (**200 total cases**).
   * **Average Length of Stay (LOS):** Monitors overall visit duration (**20.03 minutes** baseline transition average).
@@ -150,7 +150,7 @@ The dashboard is structured into dedicated analytical views to evaluate emergenc
   * **Process Pathway Funnel Chart:** Maps patient progression across milestones (`Check-in` $\rightarrow$ `Triage` $\rightarrow$ `Doctor Consultation` $\rightarrow$ `X-Ray` $\rightarrow$ `Discharge`), clearly visualizing volume counts and stage drop-offs.
   * **Paperwork Impact Analysis:** Directly contrasts complete vs. missing paperwork scenarios to prove how missing documentation inflates wait times.
   * **Doctor Performance Matrix:** Evaluates individual physician workloads (`Dr. Adams`, `Dr. Chen`, `Dr. House`, `Dr. Robert`, `Dr. Smith`), tracking patient case counts and average wait durations per attending doctor.
-  * **Demographic & Acuity Breakdown:** Visualizes patient age distribution segmented by gender and acuity.
+  * **Demographic Breakdown:** Visualizes patient age distribution segmented by gender.
 
 ### 🎛️ Interactive Filtering & Slicing Capabilities
 The dashboard incorporates dynamic global filters enabling hospital managers to drill down into specific operational subsets instantly:
@@ -161,8 +161,7 @@ The dashboard incorporates dynamic global filters enabling hospital managers to 
 ### 💡 Executive Impact
 By leveraging this multi-page Power BI dashboard, clinical supervisors can move beyond static reports—instantly identifying that missing intake paperwork is the root cause of 37%+ of administrative delays and using data-driven insights to optimize triage staffing and physician shift allocations.
 
-
-TASK VI
+#TASK VI
 # Summary and Recommendations: 
 # Project Summary:
 
