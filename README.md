@@ -128,7 +128,7 @@ Standard BI dashboards typically display an unhelpful blended average for the en
 * **The Structural Flaw:** The 71 instances of patients cycling backward from `X-Ray` to `Triage` prove that a broken intake form is actively wasting over 21 minutes per incident.
 * **The Resource Constraint:** The 33+ minute wait between `Triage` and `Doctor Consultation` reveals that staffing allocations need to be adjusted right at the consultation bays.
     
-# Task V 
+# TASK V 
 ## 📊 Executive Power BI Dashboard & Visual Analytics
 
 To operationalize the process mining insights, an interactive, multi-page **Power BI Executive Dashboard** was built for **CareFlow**, translating complex EHR event streams and transition metrics into an intuitive command center for hospital administrators.
