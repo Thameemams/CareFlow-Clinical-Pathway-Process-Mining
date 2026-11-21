@@ -48,7 +48,7 @@ Healthcare organizations lack visibility into real-world patient workflows becau
 # TASK II
 ## Dataset Loading and  Overview:
 * Total no. of rows:1142
-* Total no. of columns:10 columns
+* Total no. of columns:10 
 
 ## Data Quality Assessment:
 * Count of non-null values: 1142
