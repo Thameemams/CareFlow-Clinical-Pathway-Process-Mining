@@ -47,14 +47,14 @@ Healthcare organizations lack visibility into real-world patient workflows becau
 
 # TASK II
 ## Dataset Loading and  Overview:
-* Total no. of rows:1141
+* Total no. of rows:1142
 * Total no. of columns:10 columns
 
 ## Data Quality Assessment:
-* Count of non-null values: 1141
+* Count of non-null values: 1142
 * No duplicate columns are found.
 * The dataset is consistent throughout.
-* Range index: 0 to 1141
+* Range index: 0 to 1141, 1142 entries
 * Datatype issues are found: The datatype of timestamp is wrongly given as 'object' instead of 'datetime'.
 * Memory usage: 81.5+ KB
 
